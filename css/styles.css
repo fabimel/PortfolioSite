@@ -1,0 +1,200 @@
+body {
+  font-family: Spinnaker, sans-serif;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  height: 170px;
+  border-bottom: 3px solid #bcd2c0;
+  margin: 0 auto;
+}
+
+.header-img {
+  width: 120px;
+  margin: 40px 0;
+  padding: 0;
+}
+
+.presentation {
+  margin: 45px 0;
+  text-align: right;
+  color: #62a4b8;
+}
+
+.img-container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.banner-img {
+  max-width: 100%;
+}
+
+.title-projects {
+  margin-left: 20%;
+  color: #844a3b;
+}
+
+.featured-works {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.featured-project {
+  flex: 1;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.featured-project:last-of-type {
+  margin-right: 0;
+}
+
+.project-img {
+  width: 100%;
+  border: 2px solid #62a4b8;
+  border-radius: 8px;
+}
+
+.project-name {
+  font-size: 20px;
+  color: #62a4b8;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-link {
+  font-size: 16px;
+  margin-top: -12px;
+  text-align: center;
+}
+
+.footer-center {
+  width: 100%;
+  margin: 18px 0;
+}
+
+footer p {
+  display:block;
+  width: 60%;
+  font-size: 14px;
+  margin: auto;
+  padding-top: 12px;
+  text-align: center;
+  border-bottom: 3px solid #bcd2c0;
+  padding-bottom: 4px;
+}
+
+.social.icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60%;
+  margin: 10px auto;
+}
+
+.link-icon {
+  font-size: 200%;
+  color: #844a3b;
+}
+
+/* Breakpoints */
+@media screen and (max-width: 768px) {
+  .header-container {
+    height: 120px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .presentation {
+    margin: 18px 0;
+  }
+
+  .author {
+    font-size: 25px;
+  }
+
+  .role {
+    font-size: 20px;
+  }
+
+  .img-container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .title-projects {
+    margin-top: 30px;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-link {
+    margin-bottom: 34px;
+  }
+
+  footer p {
+    width: 75%;
+  }
+
+  .link-icon {
+    font-size: 180%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header-img {
+    width: 65px;
+  }
+
+  .presentation {
+    margin: 10px 0;
+  }
+
+  .author {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .role {
+    font-size: 14px;
+  }
+
+  .title-projects {
+    font-size: 20px;
+  }
+
+  .featured-works {
+    width: 90%;
+  }
+
+  .featured-project {
+    width: 90%;
+  }
+
+  .project-name {
+    font-size: 18px;
+  }
+
+  .project-link {
+    font-size: 14px;
+  }
+
+  footer p {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .link-icon {
+    font-size: 130%;
+  }
+}
